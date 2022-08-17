@@ -1,6 +1,6 @@
 #include "hashing.hpp"
 
-int hash_string(string s) {
+int hash_string(string s, int m) {
 	int m=3;
 	int l=s.length();
 	char c;

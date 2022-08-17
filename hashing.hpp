@@ -6,9 +6,10 @@
 
 using namespace std;
 
-int hash_string(string s);
 
-int hash_string(string s) {
+int hash_string(string s, int m);
+
+int hash_string(string s, int m) {
 	int m=3;
 	int l=s.length();
 	char c;
@@ -21,5 +22,4 @@ int hash_string(string s) {
 	return hash_val;
 	
 }
-
 #endif
