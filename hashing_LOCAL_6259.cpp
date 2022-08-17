@@ -1,6 +1,7 @@
 #include "hashing.hpp"
-=
-int hash_string(string s, int m) {
+
+int hash_string(string s) {
+	int ig=1;
 	int m=3;
 	int p=101;
 	int cur_p_val=1;

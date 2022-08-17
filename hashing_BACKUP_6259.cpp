@@ -1,20 +1,11 @@
-#ifndef _HASHING
-#define _HASHING
-
-#include <iostream>
-#include <string>
-
-using namespace std;
+#include "hashing.hpp"
 
 <<<<<<< HEAD
-
-int hash_string(string s);
+int hash_string(string s) {
+	int ig=1;
 =======
->>>>>>> main
-
-int hash_string(string s, int m);
-
 int hash_string(string s, int m) {
+>>>>>>> main
 	int m=3;
 	int p=101;
 	int cur_p_val=1;
@@ -30,4 +21,3 @@ int hash_string(string s, int m) {
 	return hash_val;
 	
 }
-#endif
