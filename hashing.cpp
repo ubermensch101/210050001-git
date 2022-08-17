@@ -1,12 +1,4 @@
-#ifndef _HASHING
-#define _HASHING
-
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-int hash_string(string s);
+#include "hashing.hpp"
 
 int hash_string(string s) {
 	int m=3;
@@ -21,5 +13,3 @@ int hash_string(string s) {
 	return hash_val;
 	
 }
-
-#endif
